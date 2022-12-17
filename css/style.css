@@ -50,7 +50,7 @@ nav ul li a:hover {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./imgs/hero.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imgs/hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -75,7 +75,7 @@ nav ul li a:hover {
 }
 
 .hero2-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./imgs/salah-regouane-MRCdF3qUbp0-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imgs/salah-regouane-MRCdF3qUbp0-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,7 +87,7 @@ nav ul li a:hover {
 }
 
 .hero3-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./imgs/apothecary-87-Wg3J83R1YSQ-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imgs/apothecary-87-Wg3J83R1YSQ-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
