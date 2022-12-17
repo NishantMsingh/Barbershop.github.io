@@ -1,0 +1,192 @@
+body, html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#bar:hover {
+  background-color: var(--navlinkcolor);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.jcc {
+  justify-content: center !important;
+}
+
+#bar {
+  padding: 5px 6px;
+  border-radius: 3px;
+  transition: all 0.5s ease-in-out;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Oswald, sans-serif;
+}
+
+li {
+  color: white;
+  margin: 0px 15px;
+  color: #c29e75;
+}
+
+:root {
+  --navlinkcolor:#c29e75;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: var(--navlinkcolor);
+}
+
+.title {
+  font-family: Oswald, sans-serif;
+  font-weight: bold;
+}
+
+.none {
+  display: none;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./imgs/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.bg-prime {
+  background: #c29e75;
+  display: inline-block;
+  padding: 3px 5px;
+}
+
+.bg-prime-dark {
+  background: #674c2d;
+  display: inline-block;
+  padding: 3px 5px;
+}
+
+.john {
+  font-family: Alex Brush;
+  font-size: 40px;
+}
+
+.hero2-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./imgs/salah-regouane-MRCdF3qUbp0-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+}
+
+.hero3-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./imgs/apothecary-87-Wg3J83R1YSQ-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.H-card:hover {
+  background-color: #c29e75;
+  transition: all 0.5s ease-in-out;
+}
+
+.H-card {
+  width: 120px;
+  height: 200px;
+}
+
+.bold {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.price-btn, .contact-btn {
+  text-transform: uppercase;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  color: white;
+  display: inline;
+  background-color: black;
+}
+
+.border-bottom-1 {
+  border-bottom: 1px solid rgba(159, 159, 159, 0.609);
+}
+
+input, textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(116, 114, 114);
+  outline: none;
+  color: white;
+}
+
+span a {
+  text-decoration: none;
+}
+
+.aic {
+  justify-content: space-between;
+}
+
+.bold-text-h {
+  font-family: Oswald;
+  font-size: 30px;
+  color: #f7f7f7;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.phone {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 774px) {
+  #header {
+    position: fixed;
+    z-index: 10000000;
+    top: 0px;
+  }
+  .none {
+    display: block;
+  }
+  .nv-height {
+    height: 170px !important;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0px 0px 15px 3px #888;
+    border-radius: 5px;
+  }
+  nav {
+    position: absolute;
+    top: 74px;
+    left: 50px;
+    height: 0px;
+    overflow-y: hidden;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+    width: calc(100% - 100px);
+    background: rgb(60, 60, 60);
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  .jcc {
+    justify-content: space-between !important;
+  }
+  .aic {
+    justify-content: flex-start !important;
+  }
+}/*# sourceMappingURL=style.css.map */

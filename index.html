@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Barber Shop</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- Google Fonts    -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ubantu">
+
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Csss  -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <header id="header" class="container-fluid p-3 bg-dark">
+        <div class="container d-flex align-items-center jcc">
+            <div class="none">
+                <span class="title text-light">
+                    <h1>BARBER SHOP</h1>
+                </span>
+            </div>
+            <!-- place navbar here -->
+            <nav id="navbar">
+                <ul class="d-flex aic justify-content-between">
+                    <li><a onclick="fun()" href="index.html">HOME</a></li>
+                    <li><a onclick="fun()" href="#about">ABOUT US</a></li>
+                    <li><a onclick="fun()" href="#services">OUR SERVICES</a></li>
+                    <li><a onclick="fun()" href="#hours">HOURS</a></li>
+                    <li><a onclick="fun()" href="#prices">PRICES</a></li>
+                    <li><a onclick="fun()" href="#contact">CONTACT US</a></li>
+                </ul>
+            </nav>
+            <!-- Closed navbar  -->
+            <div class="none text-light">
+                <span id="bar"><i class="fa-solid fa-bars fa-2xl"></i></span>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero" class="container-fluid mb-5 p-5 hero-image">
+
+        <div class="container p-5 text-center text-light">
+
+            <p>Nishant's Amazing</p>
+            <h1 class="title display-1">BARBER SHOP</h1>
+            <div class="bg-prime"><span>KOLKATA | EST 1999</span>
+            </div>
+        </div>
+
+    </section>
+    <!-- About section  -->
+    <section id="about" class="container-fluid mb-5">
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 position-relative">
+                    <img src="IMGS/others-1.jpg" alt="" class="img-fluid rounded m-3">
+                    <img src="IMGS/others-2.jpg" alt="" class="img-fluid rounded m-3">
+                </div>
+                <div class="col-lg-6 text-start ">
+                    <h1>
+                        <ul>
+                            <li>
+                                <h3 class="title pe-5">ABOUT US</h3>
+                            </li>
+                        </ul>
+                    </h1>
+                    <p class="font-weight-bold gen-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Curabitur imperdiet hendrerit volutpat. Sed in nunc nec ligula consectetur mollis in vel justo.
+                    </p>
+                    <small class="gen-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet
+                        hendrerit volutpat. Sed in nunc nec ligula consectetur mollis in vel justo.
+
+                    </small>
+                    <div>
+                        <span> <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em"
+                                preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M16.372 11.621c1.57 0 2.628 1.092 2.628 2.71C19 15.787 17.784 17 16.137 17C14.333 17 13 15.544 13 13.32c0-5.055 3.686-7.077 6-7.32v2.224c-1.569.283-3.333 1.86-3.412 3.6c.079-.04.392-.203.784-.203Zm-7.999 0c1.568 0 2.627 1.092 2.627 2.71C11 15.787 9.784 17 8.137 17C6.333 17 5 15.544 5 13.32C5 8.265 8.686 6.243 11 6v2.224c-1.569.283-3.333 1.86-3.412 3.6c.079-.04.392-.203.785-.203Z" />
+                            </svg>
+                        </span> <br>
+                    </div>
+                    <div class="ps-5">
+                        <p>Lorem ipsum dolor sit amet, consetetur adipiscing elit massa.
+                        <p class="john"> John Dey</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container-fluid mb-5 hero2-image" style="min-height:400px;">
+
+        <div class="container text-center p-5">
+            <h1><span> <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em"
+                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                        <path fill="#fff"
+                            d="M16.372 11.621c1.57 0 2.628 1.092 2.628 2.71C19 15.787 17.784 17 16.137 17C14.333 17 13 15.544 13 13.32c0-5.055 3.686-7.077 6-7.32v2.224c-1.569.283-3.333 1.86-3.412 3.6c.079-.04.392-.203.784-.203Zm-7.999 0c1.568 0 2.627 1.092 2.627 2.71C11 15.787 9.784 17 8.137 17C6.333 17 5 15.544 5 13.32C5 8.265 8.686 6.243 11 6v2.224c-1.569.283-3.333 1.86-3.412 3.6c.079-.04.392-.203.785-.203Z" />
+                    </svg></span></h1>
+            <h3 class="text-light gen-font">“ Lorem ipsum dolor sit amet, <br> consetetur adipiscing elit. Phasellus
+                blandit massa. ”
+
+            </h3>
+            <small class="text-light">- Josh Doe -
+
+            </small>
+        </div>
+
+    </section>
+
+
+    <!-- Our Services  -->
+    <section id="services" class="container-fluid mb-5">
+
+        <div class="container text-start">
+            <h1>
+                <ul>
+                    <li>
+                        <h3 class="title">OUR SERVICES</h3>
+                    </li>
+                </ul>
+            </h1>
+            <p class="gen-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <div class="d-flex justify-content-center align-items-center p-2 flex-wrap">
+
+                <!-- Cards  -->
+                <div class="card text-center m-3">
+                    <img src="IMGS/scissors.png" alt="" class="mx-auto mb-2">
+                    <h4 class="mb-2">Basic Haircut
+                    </h4>
+                    <p class="p-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet
+                        hendrerit volutpat.
+                    </p>
+                </div>
+
+                <div class="card text-center m-3">
+                    <img src="IMGS/blade.png" alt="" class="mx-auto mb-2">
+                    <h4 class="mb-2">Classic Shave
+
+                    </h4>
+                    <p class="p-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet
+                        hendrerit volutpat.
+                    </p>
+                </div>
+                <div class="card text-center m-3">
+                    <img src="IMGS/hair-dryer.png" alt="" class="mx-auto mb-2">
+                    <h4 class="mb-2">Hair Wash
+
+                    </h4>
+                    <p class="p-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet
+                        hendrerit volutpat.
+                    </p>
+                </div>
+
+                <div class="card text-center m-3">
+                    <img src="IMGS/bottle.png" alt="" class="mx-auto mb-2">
+                    <h4 class="mb-2">Hair Repair
+
+                    </h4>
+                    <p class="p-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet
+                        hendrerit volutpat.
+                    </p>
+                </div>
+
+                <div class="card text-center m-3">
+                    <img src="IMGS/beard.png" alt="" class="mx-auto mb-2">
+                    <h4 class="mb-2">Beard Shave
+
+                    </h4>
+                    <p class="p-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet
+                        hendrerit volutpat.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Hero 3   -->
+    <section class="container-fluid hero3-image mb-5" style="min-height:400px;">
+
+        <div class="container p-5 text-center text-light pt-5">
+            <h3 class="pt-5 pb-5">Looking good, lorem ipsum dolor sit amet, consetetur adipiscing elit. Phasellus
+                blandit massa.
+            </h3>
+            <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet hendrerit volutpat.
+
+            </small>
+        </div>
+
+    </section>
+
+    <!-- Hours -->
+
+    <section id="hours" class="container-fluid mb-5">
+
+        <div class="container text-start">
+            <h1>
+                <ul>
+                    <li>
+                        <h3 class="title">WORKING HOURS </h3>
+                    </li>
+                </ul>
+            </h1>
+            <p class="gen-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <div class="d-flex justify-content-center align-items-center p-2 flex-wrap ">
+
+                <!-- Hours Cards  -->
+                <div class="H-card text-center m-3 shadow-sm p-4">
+                    <h3 class="bold">Mon</h3>
+                    <small>
+                        10:00 AM <br>
+                        TO <br>
+                        8:00 PM
+                    </small>
+                </div>
+
+                <div class="H-card text-center m-3 shadow-sm p-4">
+                    <h3 class="bold">Tue</h3>
+                    <small>
+                        10:00 AM <br>
+                        TO <br>
+                        8:00 PM
+                    </small>
+                </div>
+
+
+                <div class="H-card text-center m-3 shadow-sm p-4">
+                    <h3 class="bold">Wed</h3>
+                    <small>
+                        10:00 AM <br>
+                        TO <br>
+                        8:00 PM
+                    </small>
+                </div>
+
+                <div class="H-card text-center m-3 shadow-sm p-4">
+                    <h3 class="bold">Thr</h3>
+                    <small>
+                        10:00 AM <br>
+                        TO <br>
+                        8:00 PM
+                    </small>
+                </div>
+
+
+                <div class="H-card text-center m-3 shadow-sm p-4">
+                    <h3 class="bold">Fri</h3>
+                    <small>
+                        10:00 AM <br>
+                        TO <br>
+                        8:00 PM
+                    </small>
+                </div>
+
+                <div class="H-card text-center m-3 shadow-sm p-4">
+                    <h3 class="bold">Sat</h3>
+                    <small>
+                        10:00 AM <br>
+                        TO <br>
+                        8:00 PM
+                    </small>
+                </div>
+
+                <div class="H-card text-center m-3 shadow-sm p-4">
+                    <h3 class="bold">Sun</h3>
+                    <small>
+
+                        <br>
+                        <br>
+                        Closed
+                    </small>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center p-5 bg-dark text-light">
+                <h2 class="ms-4 bold-text-h">RESERVATION? CALL US
+                </h2>
+                <h2 class="ps-5"><a href="tel:+916209220442" class="phone"> +91- 6209220442</a></h2>
+            </div>
+    </section>
+    <!-- Hero 34   -->
+    <section class="container-fluid hero3-image mb-5" style="min-height:400px;">
+
+        <div class="container p-5 d-flex justify-content-center align-items-center flex-column text-light pt-5">
+            <h1><span> <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em"
+                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                        <path fill="#fff"
+                            d="M16.372 11.621c1.57 0 2.628 1.092 2.628 2.71C19 15.787 17.784 17 16.137 17C14.333 17 13 15.544 13 13.32c0-5.055 3.686-7.077 6-7.32v2.224c-1.569.283-3.333 1.86-3.412 3.6c.079-.04.392-.203.784-.203Zm-7.999 0c1.568 0 2.627 1.092 2.627 2.71C11 15.787 9.784 17 8.137 17C6.333 17 5 15.544 5 13.32C5 8.265 8.686 6.243 11 6v2.224c-1.569.283-3.333 1.86-3.412 3.6c.079-.04.392-.203.785-.203Z" />
+                    </svg></span></h1>
+
+            <h3 class="pt-5 pb-5">“ Lorem ipsum dolor sit amet, consetetur adipiscing elit. Phasellus blandit massa. ”
+
+
+            </h3>
+            <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet hendrerit volutpat.
+
+            </small>
+        </div>
+
+    </section>
+
+    <!-- Prices and other stuffs  -->
+    <section id="prices" class="container-fluid border-bottom-1">
+
+        <div class="container text-start">
+            <h1>
+                <ul>
+                    <li>
+                        <h3 class="title">OUR PRICES</h3>
+                    </li>
+                </ul>
+            </h1>
+            <p class="gen-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <div class="row p-5">
+                <div class="col-lg-6 text-start mb-4">
+                    <h3 class="price-btn mb-2">Hair cut </h3>
+
+
+
+                    <div class="price mb-2 pt-4">
+                        <div class="d-flex justify-content-between">
+                            <h5 style="font-weight:bold">Haircut</h5>
+                            <h6 style="font-weight:bold">$20</h6>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+
+                    <div class="price mb-2 pt-4">
+                        <div class="d-flex justify-content-between">
+                            <h5 style="font-weight:bold">Clipper Cut</h5>
+                            <h6 style="font-weight:bold">$10</h6>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+
+                    <div class="price mb-2 pt-4">
+                        <div class="d-flex justify-content-between">
+                            <h5 style="font-weight:bold">Skin Fade </h5>
+                            <h6 style="font-weight:bold">$15</h6>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+
+                    <div class="price mb-2 pt-4">
+                        <div class="d-flex justify-content-between">
+                            <h5 style="font-weight:bold">Hot Towel Head Shave </h5>
+                            <h6 style="font-weight:bold">$25</h6>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+
+
+                </div>
+                <div class="col-lg-6 text-start">
+                    <h3 class="price-btn mb-2">Shave</h3>
+
+
+                    <div class="price mb-2 pt-4">
+                        <div class="d-flex justify-content-between">
+                            <h5 style="font-weight:bold">Hot Towel Face Shave
+                            </h5>
+                            <h6 style="font-weight:bold">$30</h6>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+
+                    <div class="price mb-2 pt-4">
+                        <div class="d-flex justify-content-between">
+                            <h5 style="font-weight:bold">Beard Trim
+                            </h5>
+                            <h6 style="font-weight:bold">$35</h6>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+
+                    <div class="price mb-2 pt-4">
+                        <div class="d-flex justify-content-between">
+                            <h5 style="font-weight:bold">Beard Styling
+                            </h5>
+                            <h6 style="font-weight:bold">$12</h6>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+
+                    <div class="price mb-2 pt-4">
+                        <div class="d-flex justify-content-between">
+                            <h5 style="font-weight:bold">Line Up
+                            </h5>
+                            <h6 style="font-weight:bold">$18</h6>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Location ans contact -->
+<section id="contact"  class="container-fluid  bg-dark">
+ <div class="container p-3">
+        <div class="row">
+         
+      <div class="col-lg-4 mb-5">
+  
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d22746.43538062635!2d88.42213511895986!3d22.454992690098763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1671248006751!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="col-lg-4 text-center text-light bg-prime mb-5">
+
+      <div class="border-bottom-1 mb-5">
+         
+        <p>Nishant's Amazing</p>
+        <h1 class="title display-1">BARBER SHOP</h1>
+        <div class="bg-prime-dark"><span>KOLKATA | EST 1999</span>
+        </div>
+      </div>
+      <p class="mb-5">
+        VIP road ,Haldiram <br>
+       Kolkata,wb,700052    <br>
+        nishantkumarsingh16019@gmail.com
+      </p>
+
+      <h4>
+        <span class="bold-text-h">RESERVATION? CALL US</span> <br>
+        <span><a href="tel:+916209220442" class="phone">+91-6209220442</a></span>
+      </h4>
+
+      </div>
+      <div class="col-lg-4 mb-5 text-start text-light ps-5">
+        <h1>
+            <ul>
+                <li>
+                    <h3 class="title">Contact us</h3>
+                </li>
+            </ul>
+        </h1>
+      
+        <p class="gen-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <div class="control d-flex flex-column mb-2 pt-5">
+            <input type="text" placeholder="Enter your name" class="mb-2">
+            <input type="phone" placeholder="Phone">
+          </div>
+          <div class="control mb-2">
+            <input type="email" name="email" id="" placeholder="Enter Email" style="width:100%;">
+          </div>
+          <div class="control mb-2">
+            <textarea name="" id="" cols="30" rows="5" style="width:100%" placeholder="Message"></textarea>
+          </div>
+          <div>
+            <button type="submit" class="contact-btn mt-5"> Submit</button>
+          </div>
+
+
+      </div>
+        </div>
+ </div>
+</section>
+    <main>
+
+    </main>
+    <footer class="container-fluid bg-dark text-light">
+        <!-- place footer here -->
+        <div class="container p-5 text-center d-flex justify-content-center align-items-center flex-column">
+           <div class="mb-4">
+            <span class="facebook ps-3"><a href=""><i class="fa-brands fa-facebook fa-2xl"></i></a></span>
+            <span class="twitter ps-3"><a href=""><i class="fa-brands fa-twitter fa-2xl"></i></a></span>
+            <span class="linki ps-3"><a href=""><i class="fa-brands fa-linkedin fa-2xl"></i></a></span>
+
+           </div>
+            <small>© copyright 2022. All Rights Reserved.
+            </small>
+        </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+    <!-- AOS   -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Personal Js and JQuery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
+
+    <!-- Font Awosome  -->
+    <script src="https://kit.fontawesome.com/ec70274527.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
